@@ -1,0 +1,17 @@
+{
+  "name": "sfc-methods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "delegate": "node index.js delegate",
+    "undelegate": "node index.js undelegate",
+    "withdraw": "node index.js withdraw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.7.1"
+  }
+}
